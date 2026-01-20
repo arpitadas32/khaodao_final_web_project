@@ -1,0 +1,82 @@
+body {
+    margin:0;
+    font-family:'Baloo Da 2', cursive;
+    background:#f9fafc;
+}
+
+.page-header {
+    background:linear-gradient(90deg,#d8ba94,#f07109);
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+
+.sidebar {
+    width:240px;
+    height:100vh;
+    position:fixed;
+    background:#d8ba94;
+}
+
+.sidebar a {
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+.sidebar a:hover {
+    background:#f07109;
+    color:white;
+}
+
+.main {
+    margin-left:240px;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.profile-box {
+    background:white;
+    padding:30px;
+    width:420px;
+    border-radius:15px;
+    box-shadow:0 6px 25px rgba(0,0,0,0.1);
+}
+
+.profile-box h2 {
+    text-align:center;
+    color:#f07109;
+}
+
+.profile-box input {
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.profile-box button {
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    background:#f07109;
+    color:white;
+    border:none;
+    border-radius:8px;
+}
+
+.success {
+    color:green;
+    text-align:center;
+    margin-top:15px;
+}
+
+.error {
+    color:red;
+    text-align:center;
+    margin-top:15px;
+}

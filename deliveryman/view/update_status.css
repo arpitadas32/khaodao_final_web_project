@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+}
+h2{
+    color:#f07109;
+}
+.form-box{
+    background:white;
+    padding:20px;
+    width:400px;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+}
+button{
+    margin-top:15px;
+    padding:10px;
+}
+.msg{
+    background:#d4edda;
+    padding:10px;
+    margin-bottom:10px;
+}
