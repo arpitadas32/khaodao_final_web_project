@@ -1,0 +1,78 @@
+body {
+    margin:0;
+    font-family: 'Baloo Da 2', cursive;
+    background:#f9fafc;
+}
+
+.page-header {
+    background: linear-gradient(90deg, #d8ba94, #f07109);
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+
+.sidebar {
+    width:240px;
+    position:fixed;
+    height:100vh;
+    background:#d8ba94;
+}
+
+.sidebar a {
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+.sidebar a:hover {
+    background:#f07109;
+    color:white;
+}
+
+.main {
+    margin-left:240px;
+    padding:30px;
+}
+
+.form-box {
+    background:white;
+    padding:25px;
+    max-width:500px;
+    border-radius:12px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+.insert-msg {
+    background:#d4edda;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+table {
+    width:100%;
+    margin-top:30px;
+    background:white;
+    border-collapse:collapse;
+}
+
+th {
+    background:#f07109;
+    color:white;
+    padding:12px;
+}
+
+td {
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
+
+.page-footer {
+    margin-left:240px;
+    background:#d8ba94;
+    text-align:center;
+    padding:15px;
+}
