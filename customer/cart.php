@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['place_order'])) {
     $cart = json_decode($cart_json, true);
 
     if (empty($cart)) {
-        $error = "⚠️ Your cart is khali!";
+        $error = "⚠️ Your cart is empty!";
     } else {
         $subtotal = 0;
         foreach ($cart as $item) {
