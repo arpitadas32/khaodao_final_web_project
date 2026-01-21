@@ -123,9 +123,9 @@ $order_success = $_GET['order_success'] ?? '';
             </p>
             
             <div class="quick-actions">
-                <a href="menu.php" class="action-btn" style="background: #8fe15c;">🍱 Order Now</a>
-                <a href="orders.php" class="action-btn" style="background: #d06fe1;">📜 View Orders</a>
-                <a href="profile.php" class="action-btn" style="background: #22a0ef;">👤 My Profile</a>
+                <a href="menu.php" class="action-btn">🍱 Order Now</a>
+                <a href="orders.php" class="action-btn" style="background: #9C27B0;">📜 View Orders</a>
+                <a href="profile.php" class="action-btn" style="background: #4CAF50;">👤 My Profile</a>
             </div>
         </div>
 
