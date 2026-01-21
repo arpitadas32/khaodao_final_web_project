@@ -1,13 +1,11 @@
 <?php
-
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "login_system";
+$dbname = "login_system"; // Change this to your DB name
+$dbuser = "root";               // Change this to your DB username
+$dbpass = "";                   // Change this to your DB password
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+$conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);
 
 if (!$conn) {
-    die("DB Connection Failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
-?>
