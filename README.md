@@ -49,3 +49,47 @@ This project demonstrates core web development concepts including authentication
 • **Server:** Apache (XAMPP)  
 
 ## Project Structure
+/KHAO_DAO (Project Root)
+    /controllers    # Handles business logic and request processing
+    /models         # Database interaction and data operations
+    /views          # UI files for Customer, Seller, and Delivery Man
+    /assets         # CSS, JavaScript, Images
+    index.php       # Main entry point and routing
+    khaodao.sql     # Database schema
+How to Run
+Prerequisites
+
+PHP 7.4 or higher
+
+MySQL (XAMPP recommended)
+
+Setup Steps
+
+Clone or download the project
+
+Move the project folder to htdocs
+
+Create a MySQL database named khaodao
+
+Import khaodao.sql into the database
+
+Configure database credentials in the config file
+
+Start Apache & MySQL from XAMPP
+
+Open browser and visit:http://localhost/KHAO_DAO
+Security Highlights
+
+Prepared Statements to prevent SQL Injection
+
+Session-based authentication
+
+Role-based access control
+
+Server-side form validation
+
+Secure password handling
+
+📌 About
+
+This project was developed as part of an academic group assignment to demonstrate practical knowledge of web application development using PHP and MySQL.
