@@ -77,7 +77,7 @@ Configure database credentials in the config file
 
 Start Apache & MySQL from XAMPP
 
-Open browser and visit:http://localhost/KHAO_DAO
+Open browser and visit:http://localhost/khaodao
 Security Highlights
 
 Prepared Statements to prevent SQL Injection
