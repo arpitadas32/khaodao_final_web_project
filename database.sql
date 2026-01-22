@@ -37,7 +37,7 @@ WHERE DATE(created_at) = CURDATE();
 ;2 admin
 -- 1. Insert a new admin user
 INSERT INTO admin (username, password, security_question, security_answer)
-VALUES ('adminuser', 'hashed_password_here', 'What is your pet name?', 'Tommy');
+VALUES ('adminuser', 'hashed_password_here', 'What is your nickname name?', 'Tousif');
 
 -- 2. Select all admin users
 SELECT * FROM admin;
