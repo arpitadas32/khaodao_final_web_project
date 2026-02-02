@@ -346,4 +346,5 @@ window.addEventListener('storage', function(e){
 document.addEventListener('DOMContentLoaded', displayCart);
 </script>
 </body>
+
 </html>
